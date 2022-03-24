@@ -1,5 +1,6 @@
 ---
 '@backstage/plugin-permission-common': minor
+'@backstage/test-utils': minor
 ---
 
 Refactor api types into more specific, decoupled names.
