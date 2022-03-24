@@ -164,12 +164,7 @@ export type EvaluatePermissionRequestBatch =
  * An individual response from the permission backend.
  * @public
  */
-export type EvaluatePermissionResponse =
-  | { result: AuthorizeResult.ALLOW | AuthorizeResult.DENY }
-  | {
-      result: AuthorizeResult.CONDITIONAL;
-      conditions: PermissionCriteria<PermissionCondition>;
-    };
+export type EvaluatePermissionResponse = PolicyDecision;
 
 /**
  * A batch of responses the permission backend.
