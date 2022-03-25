@@ -1,5 +1,11 @@
 # @backstage/integration
 
+## 1.1.0-next.1
+
+### Minor Changes
+
+- b7436743cb: Gerrit integration: Added an optional configuration to set the Gitiles base url.
+
 ## 1.0.1-next.0
 
 ### Patch Changes

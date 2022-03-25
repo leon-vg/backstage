@@ -1,5 +1,16 @@
 # @backstage/plugin-permission-backend
 
+## 0.5.6-next.1
+
+### Patch Changes
+
+- 95284162d6: - Add more specific check for policies which return conditional decisions for non-resource permissions.
+  - Refine permission validation in authorize endpoint to differentiate between `BasicPermission` and `ResourcePermission` instances.
+- Updated dependencies
+  - @backstage/backend-common@0.13.2-next.1
+  - @backstage/plugin-permission-common@0.5.4-next.0
+  - @backstage/plugin-permission-node@0.5.6-next.1
+
 ## 0.5.6-next.0
 
 ### Patch Changes
